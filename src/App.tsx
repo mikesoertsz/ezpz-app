@@ -33,7 +33,7 @@ const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({
   return <>{children}</>;
 };
 
-// Protected Layout wrapper
+
 const ProtectedLayout: React.FC = () => {
   const [isSideNavOpen, setIsSideNavOpen] = useState(false);
   const location = useLocation();
